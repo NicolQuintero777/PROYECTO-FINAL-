@@ -19,52 +19,71 @@ Establecer comunicación bidireccional entre Arduino y la PC por USB para enviar
 
 # Esquema de Conexiones
 
-## Sensor TCS34725 → Arduino Uno
+## Sensor TCS34725   Arduino Uno
 
-TCS34725          Arduino Uno
-─────────────────────────────
-VIN       →       3.3V
-GND       →       GND (protoboard)
-SDA       →       Pin A4
-SCL       →       Pin A5
+TCS34725    -     Arduino Uno
+
+VIN       -      3.3V
+
+GND       -      GND (protoboard)
+
+SDA       -      Pin A4
+
+SCL       -      Pin A5
 
 
 ## Driver L298N → Arduino Uno
 
-L298N             Arduino Uno
-──────────────────────────────
-ENA       →       Pin 9  (PWM) sin jumper
-IN1       →       Pin 4
-IN2       →       Pin 5
-IN3       →       Pin 6
-IN4       →       Pin 7
-ENB       →       Pin 10 (PWM) sin jumper
-GND       →       GND (protoboard)
+L298N            Arduino Uno
+
+ENA       -      Pin 9  (PWM) sin jumper
+
+IN1       -       Pin 4
+
+IN2       -      Pin 5
+
+IN3      -       Pin 6
+
+IN4       -       Pin 7
+
+ENB       -       Pin 10 (PWM) sin jumper
+
+GND       -       GND (protoboard)
 
 ## Motores → L298N
 
-Motor izquierdo   →   OUT1 y OUT2
-Motor derecho     →   OUT3 y OUT4
+Motor izquierdo   -   OUT1 y OUT2
+
+Motor derecho     -  OUT3 y OUT4
 
 ## Batería → L298N
 
-Batería (+)  →  Botón  →  Pin 12V del L298N
-Batería (-)  →  GND (protoboard)
+Batería (+) -  Botón  - Pin 12V del L298N
+
+Batería (-)  -  GND (protoboard)
 
 # Lógica de Detección de Colores
 El sensor TCS34725 devuelve valores RGB para cada color. Según esos valores el carro ejecuta una acción:
 
 ## Color       Condición RGB
 Negro     R < 80, G < 40, B < 30
+
 Blanco    R > 180, G > 100
+
 Rojo      R > 180, G < 60
+
 Verde     R < 100, G > 35, B < 35
+
 Azul      R > 90, G > 70, B > 55
 
 ## Valores de calibración obtenidos:
 Negro:   R:48   G:28   B:20
+
 Blanco:  R:212  G:130  B:86
+
 Rojo:    R:231  G:37   B:37
+
 Verde:   R:65   G:40   B:25
+
 Azul:    R:108  G:86   B:66
 
