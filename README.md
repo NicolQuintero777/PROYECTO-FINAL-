@@ -99,4 +99,13 @@ Azul:    R:108  G:86   B:66
 
 <img width="500" height="700" alt="image" src="https://github.com/user-attachments/assets/2cd3346c-0c76-49e1-81d1-0d9b97676ce0" />
 
+## Aplicación Web Streamlit
+
+La aplicación web desarrollada en Streamlit permite:
+
+ 1. Visualizar en tiempo real el color que está detectando el sensor
+ 2. Mostrar la línea por la que está pasando el carro
+ 3. Interactuar con un chatbot que explica el proyecto, sus componentes y tecnologías
+ 4. Enviar comandos de movimiento al carro desde la interfaz web
+
 
