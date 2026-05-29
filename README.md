@@ -115,23 +115,10 @@ https://github.com/user-attachments/assets/5f7ae855-c40e-4537-a984-192ec3c22f51
 https://github.com/user-attachments/assets/98557135-7d28-4298-9943-535a9e74cd72
 
 
-<img width="764" height="561" alt="image" src="https://github.com/user-attachments/assets/e093a909-dd85-4fd6-b949-372f0721010d" />
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/e093a909-dd85-4fd6-b949-372f0721010d" />
 
 
-Sensor de Color
-TCS3200
 
-VCC 5V Alimentación Lógica
-
-positiva
-
-GND GND Retorno de Tierra Común
-S0 Pin Digital 2 Configuración de
-Escalado de Frecuencia
-S1 Pin Digital 3 Configuración de
-Escalado de Frecuencia
-
-S2 Pin Digital
 
 
 
