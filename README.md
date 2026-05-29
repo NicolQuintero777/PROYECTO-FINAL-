@@ -91,12 +91,12 @@ Azul:    R:108  G:86   B:66
 # Código Arduino
 
 
-<img width="666" height="811" alt="image" src="https://github.com/user-attachments/assets/203060db-cded-4f4b-ad63-479dc49166c8" />
+<img width="500" height="700" alt="image" src="https://github.com/user-attachments/assets/203060db-cded-4f4b-ad63-479dc49166c8" />
 
 
-<img width="727" height="854" alt="image" src="https://github.com/user-attachments/assets/baedee7b-300b-4fda-a4ea-aa28b9de9f77" />
+<img width="500" height="700" alt="image" src="https://github.com/user-attachments/assets/baedee7b-300b-4fda-a4ea-aa28b9de9f77" />
 
 
-<img width="637" height="601" alt="image" src="https://github.com/user-attachments/assets/2cd3346c-0c76-49e1-81d1-0d9b97676ce0" />
+<img width="500" height="700" alt="image" src="https://github.com/user-attachments/assets/2cd3346c-0c76-49e1-81d1-0d9b97676ce0" />
 
 
