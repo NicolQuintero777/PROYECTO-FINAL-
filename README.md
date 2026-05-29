@@ -109,6 +109,9 @@ La aplicación web desarrollada en Streamlit permite:
 
 <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/9ea0ac6c-edd0-4acd-b28a-338920e23772" />
 
+<img width="600" height="600" alt="WhatsApp Image 2026-05-29 at 12 25 07" src="https://github.com/user-attachments/assets/58a14ccf-7d27-47a0-a17d-bcce17e5a609" />
+
+
 
 
 
