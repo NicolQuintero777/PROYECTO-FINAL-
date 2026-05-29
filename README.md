@@ -109,3 +109,14 @@ La aplicación web desarrollada en Streamlit permite:
  4. Enviar comandos de movimiento al carro desde la interfaz web
 
 
+
+https://github.com/user-attachments/assets/5f7ae855-c40e-4537-a984-192ec3c22f51
+
+
+
+https://github.com/user-attachments/assets/98557135-7d28-4298-9943-535a9e74cd72
+
+
+
+
+
