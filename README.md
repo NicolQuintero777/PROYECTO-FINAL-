@@ -104,8 +104,6 @@ La aplicación web desarrollada en Streamlit permite:
  1. Visualizar en tiempo real el color que está detectando el sensor
  2. Mostrar la línea por la que está pasando el carro
  3. Interactuar con un chatbot que explica el proyecto, sus componentes y tecnologías
- 4. Enviar comandos de movimiento al carro desde la interfaz web
-
 
 <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/9ea0ac6c-edd0-4acd-b28a-338920e23772" />
 
