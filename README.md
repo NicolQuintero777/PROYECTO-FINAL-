@@ -19,37 +19,35 @@ Establecer comunicación bidireccional entre Arduino y la PC por USB para enviar
 
 # Esquema de Conexiones
 
-## Sensor TCS34725   Arduino Uno
+## Sensor TCS34725     Arduino Uno          Descripción / Tipo de Señal
 
-TCS34725    -     Arduino Uno
+   VCC           -      5V         -         Alimentación Lógica positiva 
 
-VIN       -      3.3V
+   GND         -      GND (proto)      -     Retorno de Tierra 
 
-GND       -      GND (protoboard)
+   SDA         -      Pin A4      -        Configuración de Escalado de Frecuencia
 
-SDA       -      Pin A4
-
-SCL       -      Pin A5
+   SCL         -      Pin A5      -        Configuración de Escalado de Frecuencia
 
 
-## Driver L298N → Arduino Uno
+## Driver L298N →   Arduino Uno →   Descripción / Tipo de Señal
 
-L298N      -      Arduino Uno
+ 
 
-ENA       -      Pin 9  (PWM) sin jumper
+ENA       -       Pin 9        -      Habilitación / Control Velocidad Motor Izq.
 
-IN1       -       Pin 4
+IN1       -       Pin 4        -      Dirección Giro Motor Izquierdo (A)
 
-IN2       -      Pin 5
+IN2       -      Pin 5         -     Dirección Giro Motor Izquierdo (B)
 
-IN3      -       Pin 6
+IN3      -       Pin 6         -      Dirección Giro Motor Derecho (A)
 
-IN4       -       Pin 7
+IN4       -       Pin 7       -       Dirección Giro Motor Derecho (B)
 
-ENB       -       Pin 10 (PWM) sin jumper
+ENB       -       Pin 10      -      Habilitación / Control Velocidad Motor Der.
 
-GND       -       GND (protoboard)
-
+GND       -       GND (proto) -      Retorno de Tierra 
+ 
 ## Motores → L298N
 
 Motor izquierdo   -   OUT1 y OUT2
@@ -116,6 +114,24 @@ https://github.com/user-attachments/assets/5f7ae855-c40e-4537-a984-192ec3c22f51
 
 https://github.com/user-attachments/assets/98557135-7d28-4298-9943-535a9e74cd72
 
+
+<img width="764" height="561" alt="image" src="https://github.com/user-attachments/assets/e093a909-dd85-4fd6-b949-372f0721010d" />
+
+
+Sensor de Color
+TCS3200
+
+VCC 5V Alimentación Lógica
+
+positiva
+
+GND GND Retorno de Tierra Común
+S0 Pin Digital 2 Configuración de
+Escalado de Frecuencia
+S1 Pin Digital 3 Configuración de
+Escalado de Frecuencia
+
+S2 Pin Digital
 
 
 
